@@ -1,0 +1,103 @@
+svg
+{
+  background-color: grey;
+  position: absolute;
+}
+
+html
+{
+  height: 100%;
+}
+
+body
+{
+  min-height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+label
+{
+  font-size: 16px;
+  font-family: Calibri, serif;
+  vertical-align: middle;
+}
+
+ul
+{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+p
+{
+  font-size: 16px;
+  font-family: Calibri, serif;
+  vertical-align: middle;
+}
+
+.controls
+{
+  width: 200px;
+  height: auto;
+  margin-left: 5px;
+  margin-top: 5px;
+  padding: 10px;
+
+  border-radius: 5px;
+
+  background-color: rgba(255,255,255,0.5);
+  position: absolute;
+  z-index: 99;
+}
+
+.checkbox
+{
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.node
+{
+  background-color: dodgerblue;
+  fill: dodgerblue;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.node.dragging
+{
+  background-color: red;
+  fill: red;
+}
+
+.node-text
+{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Calibri, serif;
+  pointer-events: none;
+}
+
+.node-inline-text
+{
+  fill: white;
+  font-weight: bold;
+  font-family: Calibri, serif;
+  pointer-events: none;
+}
+
+.link
+{
+  fill: none;
+  stroke: lightskyblue;
+  stroke-width: 2px;
+}
+
+.arrowhead
+{
+  fill: lightskyblue;
+}
